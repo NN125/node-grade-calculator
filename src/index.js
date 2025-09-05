@@ -6,15 +6,15 @@ const GRADE_D_THRESHOLD = 60;
 
 const calculateLetterGrade = (numericGrade) => {
   if (numericGrade >= GRADE_A_THRESHOLD) {
-    return console.log(`Grade ${numericGrade}: A`);
+    return `Grade ${numericGrade}: A`;
   } else if (numericGrade >= GRADE_B_THRESHOLD) {
-    return console.log(`Grade ${numericGrade}: B`);
+    return `Grade ${numericGrade}: B`;
   } else if (numericGrade >= GRADE_C_THRESHOLD) {
-    return console.log(`Grade ${numericGrade}: C`);
+    return `Grade ${numericGrade}: C`;
   } else if (numericGrade >= GRADE_D_THRESHOLD) {
-    return console.log(`Grade ${numericGrade}: D`);
+    return `Grade ${numericGrade}: D`;
   }
-  return console.log(`Grade ${numericGrade}: F`);
+  return `Grade ${numericGrade}: F`;
 };
 
 // Test cases
