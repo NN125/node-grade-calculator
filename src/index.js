@@ -5,5 +5,6 @@ const GRADE_C_THRESHOLD = 70;
 const GRADE_D_THRESHOLD = 60;
 
 const calculateLetterGrade = (numericGrade) => {
-  // Add your grade calculation logic here
+  if (numericGrade >= GRADE_A_THRESHOLD) {
+    return console.log("Grade " + numericGrade + ": A");
 };
