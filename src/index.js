@@ -11,3 +11,6 @@ const calculateLetterGrade = (numericGrade) => {
   else if (numericGrade >= GRADE_B_THRESHOLD) {
     return console.log("Grade " + numericGrade + ": B");
   }
+  else if (numericGrade >= GRADE_C_THRESHOLD) {
+    return console.log("Grade " + numericGrade + ": C");
+  }
