@@ -16,3 +16,6 @@ const calculateLetterGrade = (numericGrade) => {
   }
   return console.log(`Grade ${numericGrade}: F`);
 };
+
+// Test cases
+const testGrades = [95, 87, 74, 58, 92, 68];
